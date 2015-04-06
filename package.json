@@ -1,0 +1,26 @@
+{
+  "name": "mashape-face-recognition",
+  "version": "0.0.0",
+  "description": "Mashape Face Recognition NodeJS module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lght/mashape-face-recognition-node"
+  },
+  "keywords": [
+    "mashape",
+    "face",
+    "recognition"
+  ],
+  "author": "Geoffrey Bauduin <bauduin.geo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lght/mashape-face-recognition-node/issues"
+  },
+  "dependencies": {
+    "request": "~2.55.0"
+  }
+}
