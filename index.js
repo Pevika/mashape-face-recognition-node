@@ -2,7 +2,7 @@
 * @Author: Geoffrey Bauduin
 * @Date:   2015-04-06 16:23:23
 * @Last Modified by:   Geoffrey Bauduin
-* @Last Modified time: 2015-04-06 16:29:54
+* @Last Modified time: 2015-04-21 18:18:55
 */
 
 (function () {
@@ -29,9 +29,12 @@
 				"X-Mashape-Key": this.api_key,
 				"Content-Type": "application/x-www-form-urlencoded",
 				"Accept": "application/json"
+			},
+			data: {
+				urls: url
 			}
-		}, callback);
-	}
+		}, callback)
+;	}
 
 	module.exports = FaceRecognition;
 
